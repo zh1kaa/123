@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+}
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+button {
+  border: none;
+  cursor: pointer;
+}
+#header {
+  /* padding: 25px 0 20px 25px; */
+  position: sticky;
+  padding: 25px 0;
+  border-bottom: 1px solid gray;
+  backdrop-filter: blur(4px);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  gap: 10px;
+}
+.logo h6 {
+  color: grey;
+}
+.logo h6 span {
+  color: black;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+}
+nav a {
+  text-decoration: none;
+  color: grey;
+  padding: 0 10px 0 10px;
+}
+nav select {
+  border: none;
+  color: grey;
+}
+.icons {
+  display: flex;
+  gap: 20px;
+}
+.main img {
+  width: 500px;
+  height: 400px;
+}
+#main {
+  padding: 60px 0;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+.bred h1 {
+  width: 430px;
+  padding-top: 50px;
+  font-size: 40px;
+}
+.bred h1 span {
+  padding: 10px 0;
+  color: #ee4248;
+}
+.bred p {
+  padding: 13px 0;
+  width: 300px;
+  color: grey;
+  font-size: 18px;
+}
+.bred button {
+  width: 100px;
+  border-radius: 3px;
+  padding: 10px 0;
+  background: #ee4248;
+  color: #fff;
+}
+
+#rein {
+  padding: 55px;
+  height: 200px 0;
+  background: #f6f6f6;
+}
+.rein {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rein img {
+  width: 580px;
+  height: 450px;
+  padding-right: 60px 0;
+}
+.grek h1 {
+  color: black;
+  font-size: 30px;
+}
+.grek h1 span {
+  color: #ee4248;
+}
+.grek h1 span br {
+  padding: 10px 0;
+}
+.grek {
+  width: 450px;
+}
+.grek p {
+  padding: 30px 0;
+  color: grey;
+}
+.grek p span {
+  color: #ee4248;
+}
+.grek p br {
+}
+#qwert {
+  padding: 70px 0;
+}
+.qwert {
+  display: flex;
+  justify-content: space-around;
+}
+.reo {
+  text-align: center;
+}
+.zhi {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+  gap: 190px;
+  /* padding-right: 100px; */
+}
+.bri h3 {
+  color: #ee4248;
+  padding: 10px 0;
+  font-size: 23px;
+}
+.bri p {
+  font-size: 15px;
+  width: 250px;
+  padding-bottom: 13px;
+}
+.bri button {
+  width: 85px;
+  height: 35px;
+  background: #ee4248;
+  color: #fff;
+  border-radius: 3px;
+}
+.mri h3 {
+  color: #ee4248;
+  padding: 10px 0;
+  font-size: 23px;
+}
+.mri p {
+  font-size: 15px;
+  width: 250px;
+  padding-bottom: 13px;
+}
+.mri button {
+  width: 85px;
+  height: 35px;
+  background: #ee4248;
+  color: #fff;
+  border-radius: 3px;
+}
+.uri h3 {
+  color: #ee4248;
+  padding: 10px 0;
+  font-size: 23px;
+}
+.uri p {
+  font-size: 15px;
+  width: 300px;
+  padding-bottom: 13px;
+}
+.uri button {
+  width: 85px;
+  height: 35px;
+  background: #ee4248;
+  color: #fff;
+  border-radius: 3px;
+}
+.wert {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.asd {
+  display: flex;
+  padding: 0 0 0 50px;
+}
+.vbn {
+  padding-right: 300px;
+}
+#contact {
+  padding: 10px 0 30px 0;
+}
+.contact {
+  display: flex;
+  align-items: flex-end;
+  gap: 80px;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.left p {
+  line-height: 22px;
+  color: #000000a9;
+}
+.left p span {
+  color: #000;
+  font-weight: bold;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.right h1 {
+  font-weight: 500;
+}
+.right p {
+  color: #000000a9;
+}
+#footer {
+  background-color: #ee4248;
+  padding: 35px 0;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+}
+.footer p {
+  color: #fff;
+  font-size: 16px;
+}
